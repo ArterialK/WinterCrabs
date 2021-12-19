@@ -31,7 +31,7 @@ class SlideshowFragment : Fragment() {
         _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
+        val textView: TextView = binding.textAcerca
         slideshowViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })

@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/nav_lugares"
         android:name="com.example.wintercrabs.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/lugares"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_paquetes"
         android:name="com.example.wintercrabs.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/paquetes"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_unirse"
         android:name="com.example.wintercrabs.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/unirse"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
